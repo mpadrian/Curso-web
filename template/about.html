@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nosotros</title>
+</head>
+<body>
+
+    {% extends "main.html" %}
+
+    <!-- <header>
+        <div class="container">
+            <h1>Sobre Nosotros</h1>
+            <nav>
+                <ul>
+                    <li><a href="{% url 'main' %}">Inicio</a></li>
+                    <li><a href="/about">Sobre Nosotros</a></li>
+                    <li><a href="/services">Servicios</a></li>
+                    <li><a href="/contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> -->
+
+    {% block content %}
+
+    <main>
+        <div class="container">
+            <h2>Nuestra Historia</h2>
+            <p>Somos una empresa dedicada a proporcionar soluciones innovadoras para nuestros clientes.</p>
+            <h2>Nuestro Equipo</h2>
+            <p>Contamos con un equipo de profesionales altamente capacitados y comprometidos con la excelencia.</p>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Adrian Castillo. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    {% endblock %}
+</body>
+</html>
